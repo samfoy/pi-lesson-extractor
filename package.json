@@ -1,0 +1,40 @@
+{
+  "name": "@samfp/pi-lesson-extractor",
+  "version": "0.1.0",
+  "description": "Pi extension that extracts reusable problem-solving patterns from session transcripts — retry loops, error→fix pairs, user corrections, and confirmed approaches.",
+  "keywords": [
+    "pi-package",
+    "extension",
+    "lessons",
+    "learning",
+    "patterns",
+    "memory"
+  ],
+  "files": [
+    "*.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samfoy/pi-lesson-extractor"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.9.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.21",
+    "@sinclair/typebox": "^0.34.48",
+    "typescript": "^5.8.3"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@sinclair/typebox": "*",
+    "@samfp/pi-memory": "*"
+  }
+}
