@@ -1,6 +1,6 @@
 {
   "name": "@samfp/pi-lesson-extractor",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Pi extension that extracts reusable problem-solving patterns from session transcripts — retry loops, error→fix pairs, user corrections, and confirmed approaches.",
   "keywords": [
     "pi-package",
@@ -21,7 +21,9 @@
     "url": "https://github.com/samfoy/pi-lesson-extractor"
   },
   "pi": {
-    "extensions": ["./index.ts"]
+    "extensions": [
+      "./index.ts"
+    ]
   },
   "dependencies": {
     "better-sqlite3": "^11.9.1"
