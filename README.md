@@ -1,5 +1,7 @@
 # pi-lesson-extractor
 
+> ⚠️ **Deprecated and unmaintained.** This extension was an early experiment in automatic lesson extraction from session transcripts. In practice the heuristic pattern detection produced too much low-signal noise to be useful. For lesson management, use pi-memory's `memory_remember(type='lesson')` directly when a real correction or gotcha emerges. Repo archived — no further fixes or releases.
+
 A [pi](https://github.com/mariozechner/pi) extension that automatically extracts reusable problem-solving patterns from session transcripts.
 
 ## What it does
