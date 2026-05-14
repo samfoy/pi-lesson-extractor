@@ -15,7 +15,7 @@
  * Commands:
  * - /lessons-review: interactive review of pending candidates
  */
-import type { ExtensionAPI, AgentToolResult } from "@mariozechner/pi-coding-agent";
+import type { ExtensionAPI, AgentToolResult } from "@earendil-works/pi-coding-agent";
 import { Type } from "@sinclair/typebox";
 import { join } from "node:path";
 import { homedir } from "node:os";
